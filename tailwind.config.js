@@ -10,6 +10,10 @@ module.exports = {
       fontFamily: {
         Montserrat: "'montserrat', serif",
       },
+
+      gridTemplateColumns: {
+        'firstGridMain': 'repeat(auto-fit, minmax(20rem, 1fr))',
+      },
     },
   },
   plugins: [],

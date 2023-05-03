@@ -144,6 +144,50 @@ export default function Home() {
             Olá Tony! Esse é o seu dashboard
           </h1>
           <nav className='w-full mt-10 p-10 border-t border-zinc-200'></nav>
+          <div className='grid gap-8 grid-cols-firstGridMain text-sm font-bold tracking-wider text-zinc-300 justify-between'>
+            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between '>
+              <h3 className='h-full mb-4 text-base flex items-center'>QUESTÕES RESPONDIDAS</h3>
+
+              <div className='flex justify-end'>
+                <p className='font-normal'>8555/17110</p>
+                <div></div>
+              </div>
+            </div>
+            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between'>
+              <h3 className='h-full mb-4 text-base flex items-center'>SEMANAS DO SEU PLANO DE ESTUDO</h3>
+              
+              <div className='flex justify-end'>
+                <p className='font-normal'>15/30</p>
+                <div></div>
+              </div>
+            </div>
+            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between'>
+              <h3 className='h-full mb-4 text-base flex items-center'>SEMANAS DO SEU CURSO POR QUESTÕES</h3>
+              
+              <div className='flex justify-end'>
+                <p className='font-normal'>15/30</p>
+                <div></div>
+              </div>
+            </div>
+            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between'>
+              <h3 className='h-full mb-4 text-base flex items-center'>AULAS ASSISTIDAS</h3>
+              
+              <div className='flex justify-end'>
+                <p className='font-normal'>2164/4328</p>
+                <div></div>
+              </div>
+            </div>
+            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between'>
+              <h3 className='h-full mb-4 text-base flex items-center'>SIMULADOS REALIZADOS</h3>
+              
+              <div className='flex justify-center'>
+                <p className='font-normal'>5</p>
+                <div></div>
+              </div>
+            </div>
+            
+            
+          </div>
         </main>
 
         <aside className='w-80 bg-zinc-800'>aside-2</aside>
