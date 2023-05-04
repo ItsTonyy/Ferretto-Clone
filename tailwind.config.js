@@ -12,9 +12,12 @@ module.exports = {
       },
 
       gridTemplateColumns: {
-        'firstGridMain': 'repeat(auto-fit, minmax(20rem, 1fr))',
+        'firstGridMainColumns': 'repeat(auto-fit, minmax(12rem, 1fr))',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated'),
+    require('@shrutibalasa/tailwind-grid-auto-fit'),
+  ],
 }

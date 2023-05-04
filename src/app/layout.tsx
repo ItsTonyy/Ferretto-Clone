@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-zinc-800 text-zinc-50 font-Montserrat'>{children}</body>
+      <body className='bg-zinc-800 text-zinc-50 font-Montserrat m-0 p-0'>{children}</body>
     </html>
   )
 }

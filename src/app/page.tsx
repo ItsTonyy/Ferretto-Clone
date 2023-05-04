@@ -139,50 +139,63 @@ export default function Home() {
           
         </aside>
 
-        <main className='flex-1 bg-zinc-800 p-10'>
+        <main className='flex-1 bg-zinc-800 pt-10 pb-10 pl-10 pr-24'>
           <h1 className='text-3xl font-bold text-zinc-200'>
             Olá Tony! Esse é o seu dashboard
           </h1>
-          <nav className='w-full mt-10 p-10 border-t border-zinc-200'></nav>
-          <div className='grid gap-8 grid-cols-firstGridMain text-sm font-bold tracking-wider text-zinc-300 justify-between'>
-            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between '>
-              <h3 className='h-full mb-4 text-base flex items-center'>QUESTÕES RESPONDIDAS</h3>
+          <nav className='w-full mt-10 p-6 border-t border-zinc-200'></nav>
+          <div className='grid gap-7 grid-cols-firstGridMainColumns font-bold text-zinc-300'>
 
-              <div className='flex justify-end'>
-                <p className='font-normal'>8555/17110</p>
-                <div></div>
+
+          <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+              <h3 className='h-full mb-4 text-xs flex'>QUESTÕES RESPONDIDAS</h3>
+              
+              <div className='flex flex-col h-full'>
+                <p className='font-normal flex justify-end text-sm pb-1'>8555/17110</p>
+                <div className='h-1 rounded-full w-100% bg-zinc-800'>
+                  <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>    </div>
+                </div>
               </div>
             </div>
-            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between'>
-              <h3 className='h-full mb-4 text-base flex items-center'>SEMANAS DO SEU PLANO DE ESTUDO</h3>
+
+            <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+              <h3 className='h-full mb-4 text-xs flex'>SEMANAS DO SEU PLANO DE ESTUDO</h3>
               
-              <div className='flex justify-end'>
-                <p className='font-normal'>15/30</p>
-                <div></div>
+              <div className='flex flex-col h-full'>
+                <p className='font-normal flex justify-end text-sm pb-1'>15/30</p>
+                <div className='h-1 rounded-full w-100% bg-zinc-800'>
+                  <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>    </div>
+                </div>
               </div>
             </div>
-            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between'>
-              <h3 className='h-full mb-4 text-base flex items-center'>SEMANAS DO SEU CURSO POR QUESTÕES</h3>
+
+            <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+              <h3 className='h-full mb-4 text-xs flex'>SEMANAS DO SEU CURSO POR QUESTÕES</h3>
               
-              <div className='flex justify-end'>
-                <p className='font-normal'>15/30</p>
-                <div></div>
+              <div className='flex flex-col h-full'>
+                <p className='font-normal flex justify-end text-sm pb-1'>15/30</p>
+                <div className='h-1 rounded-full w-100% bg-zinc-800'>
+                  <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>    </div>
+                </div>
               </div>
             </div>
-            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between'>
-              <h3 className='h-full mb-4 text-base flex items-center'>AULAS ASSISTIDAS</h3>
+
+            <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+              <h3 className='h-full mb-4 text-xs flex'>AULAS ASSISTIDAS</h3>
               
-              <div className='flex justify-end'>
-                <p className='font-normal'>2164/4328</p>
-                <div></div>
+              <div className='flex flex-col h-full'>
+                <p className='font-normal flex justify-end text-sm pb-1'>2164/4328</p>
+                <div className='h-1 rounded-full w-100% bg-zinc-800'>
+                  <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>    </div>
+                </div>
               </div>
             </div>
-            <div className='w-full bg-zinc-600/80 rounded-2xl p-3 flex flex-col justify-between'>
-              <h3 className='h-full mb-4 text-base flex items-center'>SIMULADOS REALIZADOS</h3>
+
+            <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+              <h3 className='h-full mb-4 text-xs flex'>SIMULADOS REALIZADOS</h3>
               
-              <div className='flex justify-center'>
-                <p className='font-normal'>5</p>
-                <div></div>
+              <div className='flex flex-col h-full'>
+                <p className='font-bold flex justify-center text-3xl pb-1'>5</p>                
               </div>
             </div>
             
