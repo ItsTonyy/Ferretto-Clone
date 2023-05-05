@@ -13,11 +13,12 @@ module.exports = {
 
       gridTemplateColumns: {
         'firstGridMainColumns': 'repeat(auto-fit, minmax(12rem, 1fr))',
+        'secondGridMainColumns': '1.2fr 1.5fr',
       },
     },
   },
   plugins: [
     require('tailwindcss-animated'),
-    require('@shrutibalasa/tailwind-grid-auto-fit'),
+    require('tailwind-scrollbar'),
   ],
 }

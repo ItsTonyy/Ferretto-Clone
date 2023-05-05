@@ -25,6 +25,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0"
+    "@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+    "tailwind-scrollbar": "^3.0.0"
   }
 }

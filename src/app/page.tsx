@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <div className='flex h-screen'>
-        <aside className='flex flex-col w-80 bg-zinc-900 p-7'>
+        <aside className='flex flex-col w-80 bg-zinc-900 p-7 sticky'>
           <Image
             src='/images/LogoFerrettoDark.png'
             width={50} height={50}
@@ -140,10 +140,8 @@ export default function Home() {
         </aside>
 
         <main className='flex-1 bg-zinc-800 pt-10 pb-10 pl-10 pr-24'>
-          <h1 className='text-3xl font-bold text-zinc-200'>
-            Olá Tony! Esse é o seu dashboard
-          </h1>
-          <nav className='w-full mt-10 p-6 border-t border-zinc-200'></nav>
+          <h1 className='text-2xl font-bold text-zinc-200'>Olá Tony! Esse é o seu dashboard</h1>
+          <div className='w-full mt-10 p-6 border-t border-zinc-200'></div>
           <div className='grid gap-7 grid-cols-firstGridMainColumns font-bold text-zinc-300'>
 
 
@@ -200,7 +198,203 @@ export default function Home() {
             </div>
             
             
+          
+          
+          
+          
           </div>
+
+          <section className='py-8 text-sm grid grid-cols-secondGridMainColumns gap-7'>
+            <div className='h-96 bg-zinc-900 p-8 rounded-2xl'>
+              <h3 className='font-semibold pb-10'>Aulas assistidas</h3>
+
+              <ul className='overflow-y-auto max-h-72 '>
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Matemática</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>222/444</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Física (Prof. Coelho)</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>249/499</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Física (Prof. Boaro)</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>76/153</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Química</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>206/412</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>História</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>52/103</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>História do Brasil</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>45/70</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>História da Arte</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>4/9</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Geografia</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>112/223</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Filosofia</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>60/120</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Sociologia</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>17/35</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Gramática</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>55/111</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Interpretação de texto</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>42/84</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Literatura</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>58/116</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Atualidades</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>15/31</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Redação</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>46/92</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Inglês</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>10/20</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>Espanhol</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>6/12</span>
+                </li>
+                <div className='w-full my-7 border-t border-zinc-200'></div>
+
+                <li className='flex flex-row items-center'>
+
+                  <span className='pr-5'>AVENGER - Produtividade, Foco e Disciplina</span>
+                  <div className='h-1 rounded-full w-64 bg-slate-200'>
+                    <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'>  </div>                  
+                  </div>
+                  <span className='pl-5'>12/25</span>
+                </li>
+
+              </ul>
+            </div>
+
+            <div className='h-fit bg-zinc-900 px-5 py-7 rounded-2xl'>
+              <h3 className='font-semibold pb-10'>Ultímas aulas</h3>
+            </div>
+          </section>
         </main>
 
         <aside className='w-80 bg-zinc-800'>aside-2</aside>
