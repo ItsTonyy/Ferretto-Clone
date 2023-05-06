@@ -15,6 +15,16 @@ module.exports = {
         'firstGridMainColumns': 'repeat(auto-fit, minmax(12rem, 1fr))',
         'secondGridMainColumns': '1.2fr 1.5fr',
       },
+
+      minWidth: {
+        '12rem': '6rem',
+        '6rem' : '4rem',
+      },
+
+      spacing: {
+        '97': '25rem',
+        '98': '26rem',
+      },
     },
   },
   plugins: [
