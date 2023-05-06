@@ -17,13 +17,17 @@ module.exports = {
       },
 
       minWidth: {
-        '12rem': '6rem',
-        '6rem' : '4rem',
+        '12rem': '7rem',
+        '6rem' : '4.5rem',
       },
 
       spacing: {
         '97': '25rem',
         '98': '26rem',
+      },
+
+      colors: {
+        'regal-blue': '#0049ff',
       },
     },
   },

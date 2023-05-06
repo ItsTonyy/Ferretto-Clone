@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import Image1 from '/public/images/Tragédia1.jpg';
+import Image2 from '/public/images/Tragédia2.jpg';
+import Image3 from '/public/images/CriseSanitária.jpg';  
 import {Home as HomeIcon, Laptop, PlayCircle, FileText, LayoutGrid, Edit3, BookMarked, BookOpenCheck, LayoutList, PieChart, GitPullRequestClosed, MessageSquare, User, Newspaper, HelpCircle, LogOut} from 'lucide-react'
 
 export default function Home() {
@@ -145,7 +148,7 @@ export default function Home() {
           <div className='grid gap-7 grid-cols-firstGridMainColumns font-bold text-zinc-300'>
 
 
-          <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+          <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>QUESTÕES RESPONDIDAS</h3>
               
               <div className='flex flex-col h-full'>
@@ -156,7 +159,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+            <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SEMANAS DO SEU PLANO DE ESTUDO</h3>
               
               <div className='flex flex-col h-full'>
@@ -167,7 +170,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+            <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SEMANAS DO SEU CURSO POR QUESTÕES</h3>
               
               <div className='flex flex-col h-full'>
@@ -178,7 +181,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+            <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>AULAS ASSISTIDAS</h3>
               
               <div className='flex flex-col h-full'>
@@ -189,7 +192,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-7 pb-4 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
+            <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SIMULADOS REALIZADOS</h3>
               
               <div className='flex flex-col h-full'>
@@ -393,32 +396,63 @@ export default function Home() {
             </div>
 
             <div className='h-98 bg-zinc-900 p-8 rounded-2xl'>
-              <h3 className='font-semibold pb-10'>Ultímas aulas</h3>
+              <h3 className='font-semibold pb-8'>Ultímas aulas</h3>
 
-              <div className='pt-12'>
+              <div>
                 <ul>
-                  <li>
-                    <div></div>
-                    <div>
-                      <p>ATUALIDADES</p>
-                      <p>Tragédia das Chuvas no Litoral Norte de SP - Parte 02</p>
-                    </div>
+                  <li className='pb-6'>
+                    <a href="https://app.professorferretto.com.br/play/atualidades/atualidades-2023?aula=atu31"
+                     className='flex flex-row w-full h-full'>
+                      <div className='pr-5 relative'>
+                        <div className='absolute z-10 flex items-center justify-center bg-regal-blue/70 inset-0 
+                        w-36 rounded-xl'>
+                          <p>37:07</p>
+                          <PlayCircle />
+                        </div>
+                        <Image src={Image1} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
+                      </div>
+                    
+                      <div>
+                        <p className='text-sm text-regal-blue pb-1'>Atualidades</p>
+                        <p className='font-bold'>Tragédia das Chuvas no Litoral Norte de SP - Parte &nbsp; 02</p>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li className='pb-6'>
+                    <a href="https://app.professorferretto.com.br/play/atualidades/atualidades-2023?aula=atu30" className='flex flex-row w-full h-full'>
+                    <div className='pr-5 relative'>
+                        <div className='absolute z-10 flex items-center justify-center bg-regal-blue/70 inset-0 
+                        w-36 rounded-xl'>
+                          <p>37:07</p>
+                          <PlayCircle />
+                        </div>
+                        <Image src={Image1} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
+                      </div>
+                    
+                      <div>
+                        <p className='text-sm text-regal-blue pb-1'>Atualidades</p>
+                        <p className='font-bold'>Tragédia das Chuvas no Litoral Norte de SP - Parte &nbsp; 01</p>
+                      </div>
+                    </a>
                   </li>
 
                   <li>
-                    <div></div>
-                    <div>
-                      <p>ATUALIDADES</p>
-                      <p>Tragédia das Chuvas no Litoral Norte de SP - Parte 01</p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div></div>
-                    <div>
-                      <p>ATUALIDADES</p>
-                      <p>Crise Sanitária Yanomami e Garimpo Ilegal - Parte 02</p>
-                    </div>
+                    <a href="https://app.professorferretto.com.br/play/atualidades/atualidades-2023?aula=atu29" className='flex flex-row w-full h-full'>
+                    <div className='pr-5 relative'>
+                        <div className='absolute z-10 flex items-center justify-center bg-regal-blue/70 inset-0 
+                        w-36 rounded-xl'>
+                          <p>37:07</p>
+                          <PlayCircle />
+                        </div>
+                        <Image src={Image1} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
+                      </div>
+                    
+                      <div>
+                        <p className='text-sm text-regal-blue pb-1'>Atualidades</p>
+                        <p className='font-bold'>Crise Sanitária Yanomami e Garimpo Ilegal - &nbsp; Parte 02</p>
+                      </div>
+                    </a>
                   </li>
                 </ul>
               </div>
