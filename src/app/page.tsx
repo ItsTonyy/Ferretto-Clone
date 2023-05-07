@@ -1,14 +1,15 @@
 import Image from 'next/image';
 import Image1 from '/public/images/Tragédia1.jpg';
 import Image2 from '/public/images/Tragédia2.jpg';
-import Image3 from '/public/images/CriseSanitária.jpg';  
-import {Home as HomeIcon, Laptop, PlayCircle, FileText, LayoutGrid, Edit3, BookMarked, BookOpenCheck, LayoutList, PieChart, GitPullRequestClosed, MessageSquare, User, Newspaper, HelpCircle, LogOut} from 'lucide-react'
+import Image3 from '/public/images/CriseSanitária.jpg'; 
+import ferrettoImage from 'public/images/ferretto.png'; 
+import {Home as HomeIcon, Laptop, PlayCircle, FileText, LayoutGrid, Edit3, BookMarked, BookOpenCheck, LayoutList, PieChart, GitPullRequestClosed, MessageSquare, User, Newspaper, HelpCircle, LogOut, ArrowRight, Check} from 'lucide-react'
 
 export default function Home() {
   return (
     <main>
       <div className='flex h-screen'>
-        <aside className='flex flex-col w-80 bg-zinc-900 p-7 sticky'>
+        <aside className='flex flex-col w-80 bg-zinc-900 p-7'>
           <Image
             src='/images/LogoFerrettoDark.png'
             width={50} height={50}
@@ -136,16 +137,14 @@ export default function Home() {
                 
               </ul>
             </nav>
-
-
-          </div>
-          
+          </div>          
         </aside>
 
         <main className='flex-1 bg-zinc-800 pt-10 pb-10 pl-10 pr-24'>
           <h1 className='text-2xl font-bold text-zinc-200'>Olá Tony! Esse é o seu dashboard</h1>
           <div className='w-full mt-10 p-6 border-t border-zinc-200'></div>
-          <div className='grid gap-7 grid-cols-firstGridMainColumns font-bold text-zinc-300'>
+
+          <nav className='grid gap-7 grid-cols-firstGridMainColumns font-bold text-zinc-300'>
 
 
           <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
@@ -205,7 +204,7 @@ export default function Home() {
           
           
           
-          </div>
+          </nav>
 
           <section className='py-8 text-sm grid grid-cols-secondGridMainColumns gap-7'>
 
@@ -406,7 +405,7 @@ export default function Home() {
                       <div className='pr-5 relative'>
                         <div className='absolute z-10 flex items-center justify-center bg-regal-blue/70 inset-0 
                         w-36 rounded-xl'>
-                          <p>37:07</p>
+                          <p className='pr-3'>37:07</p>
                           <PlayCircle />
                         </div>
                         <Image src={Image1} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
@@ -424,10 +423,10 @@ export default function Home() {
                     <div className='pr-5 relative'>
                         <div className='absolute z-10 flex items-center justify-center bg-regal-blue/70 inset-0 
                         w-36 rounded-xl'>
-                          <p>37:07</p>
+                          <p className='pr-3'>37:07</p>
                           <PlayCircle />
                         </div>
-                        <Image src={Image1} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
+                        <Image src={Image2} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
                       </div>
                     
                       <div>
@@ -442,10 +441,10 @@ export default function Home() {
                     <div className='pr-5 relative'>
                         <div className='absolute z-10 flex items-center justify-center bg-regal-blue/70 inset-0 
                         w-36 rounded-xl'>
-                          <p>37:07</p>
+                          <p className='pr-3'>37:07</p>
                           <PlayCircle />
                         </div>
-                        <Image src={Image1} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
+                        <Image src={Image3} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
                       </div>
                     
                       <div>
@@ -458,9 +457,79 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+          <footer>
+            <div className='bg-zinc-700/50 w-full h-full p-7 rounded-3xl flex flex-col'>
+              <div className='flex justify-between pb-5'>
+                <span className='font-bold text-sm'>Notificações</span>
+                <div className='flex items-center'>
+                  <span className='text-regal-blue font-bold text-sm'>Ver todas</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 24" fill="none" stroke="#0049ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>                
+              </div>
+
+              <div>
+
+                <div className='w-full bg-zinc-800/50 p-5 flex flex-row rounded-xl relative mb-5'>
+                  <Image src={ferrettoImage} width={50} height={1} alt="foto-do-ferretto" className='rounded-full w-9 h-9'/>
+
+                  <div className='flex flex-col pl-5'>
+                   <div className='text-xs text-zinc-200/90'>
+                      <p>Professor Ferretto - 16/09/2022</p>
+                    </div>
+                    <div>
+                      <p className='text-sm'>ATENÇÃO! MANUNTENÇÃO PROGRAMADA NA PLATAF...</p>
+                    </div>                                      
+                  </div>
+
+                  <div className='absolute flex flex-row right-9 top-7 bg-emerald-400 rounded-lg items-center p-1 pl-3'>
+                    <p className='text-xs font-bold text-zinc-900'>LIDA</p>
+                    <Check className='h-4'/>
+                  </div>                  
+                </div>   
+                
+                <div className='w-full bg-zinc-800/50 p-5 flex flex-row rounded-xl relative mb-5'>
+                  <Image src={ferrettoImage} width={50} height={1} alt="foto-do-ferretto" className='rounded-full w-9 h-9'/>
+
+                  <div className='flex flex-col pl-5'>
+                   <div className='text-xs text-zinc-200/90'>
+                      <p>Professor Ferretto - 16/09/2022</p>
+                    </div>
+                    <div>
+                      <p className='text-sm'>ATENÇÃO! MANUNTENÇÃO PROGRAMADA NA PLATAF...</p>
+                    </div>                                      
+                  </div>
+
+                  <div className='absolute flex flex-row right-9 top-7 bg-emerald-400 rounded-lg items-center p-1 pl-3'>
+                    <p className='text-xs font-bold text-zinc-900'>LIDA</p>
+                    <Check className='h-4'/>
+                  </div>                  
+                </div> 
+
+                <div className='w-full bg-zinc-800/50 p-5 flex flex-row rounded-xl relative'>
+                  <Image src={ferrettoImage} width={50} height={1} alt="foto-do-ferretto" className='rounded-full w-9 h-9'/>
+
+                  <div className='flex flex-col pl-5'>
+                   <div className='text-xs text-zinc-200/90'>
+                      <p>Professor Ferretto - 16/09/2022</p>
+                    </div>
+                    <div>
+                      <p className='text-sm'>ATENÇÃO! MANUNTENÇÃO PROGRAMADA NA PLATAF...</p>
+                    </div>                                      
+                  </div>
+
+                  <div className='absolute flex flex-row right-9 top-7 bg-emerald-400 rounded-lg items-center p-1 pl-3'>
+                    <p className='text-xs font-bold text-zinc-900'>LIDA</p>
+                    <Check className='h-4'/>
+                  </div>                  
+                </div>     
+
+              </div>
+            </div>
+          </footer>
         </main>
 
-        <aside className='w-80 bg-zinc-800'>aside-2</aside>
+        <aside className='w-80'>aside-2</aside>
       </div>
     </main>
   );

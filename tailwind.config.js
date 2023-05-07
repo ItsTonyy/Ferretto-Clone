@@ -28,6 +28,7 @@ module.exports = {
 
       colors: {
         'regal-blue': '#0049ff',
+        'poop-black': 'rgb(52, 52, 52)'
       },
     },
   },
