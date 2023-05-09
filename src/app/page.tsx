@@ -408,7 +408,7 @@ export default function Home() {
                           <p className='pr-3'>37:07</p>
                           <PlayCircle />
                         </div>
-                        <Image src={Image1} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
+                        <Image src={Image1} width={120} height={160} className='w-36.3 object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
                       </div>
                     
                       <div>
@@ -426,7 +426,7 @@ export default function Home() {
                           <p className='pr-3'>37:07</p>
                           <PlayCircle />
                         </div>
-                        <Image src={Image2} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
+                        <Image src={Image2} width={150} height={160} className='w-36.2 object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
                       </div>
                     
                       <div>
@@ -444,7 +444,7 @@ export default function Home() {
                           <p className='pr-3'>37:07</p>
                           <PlayCircle />
                         </div>
-                        <Image src={Image3} width={143} height={160} className='object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
+                        <Image src={Image3} width={120} height={160} className='w-36.2 object-cover rounded-xl grayscale' alt="Imagem-da-Aula" />
                       </div>
                     
                       <div>

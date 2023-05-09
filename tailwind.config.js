@@ -26,6 +26,11 @@ module.exports = {
         '98': '26rem',
       },
 
+      width: {
+        '36.3': '9.3rem',
+        '36.2': '9.2rem',
+      },
+
       colors: {
         'regal-blue': '#0049ff',
         'poop-black': 'rgb(52, 52, 52)'
