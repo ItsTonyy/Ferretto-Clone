@@ -24,11 +24,13 @@ module.exports = {
       spacing: {
         '97': '25rem',
         '98': '26rem',
+
       },
 
       width: {
         '36.3': '9.3rem',
         '36.2': '9.2rem',
+        '1.5': '0.4rem',
       },
 
       colors: {

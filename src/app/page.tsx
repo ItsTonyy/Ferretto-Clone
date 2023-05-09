@@ -2,7 +2,8 @@ import Image from 'next/image';
 import Image1 from '/public/images/Tragédia1.jpg';
 import Image2 from '/public/images/Tragédia2.jpg';
 import Image3 from '/public/images/CriseSanitária.jpg'; 
-import ferrettoImage from 'public/images/ferretto.png'; 
+import ferrettoImage from '/public/images/ferretto.png'; 
+import LogoAside from '/public/images/LogoTAside.png';
 import {Home as HomeIcon, Laptop, PlayCircle, FileText, LayoutGrid, Edit3, BookMarked, BookOpenCheck, LayoutList, PieChart, GitPullRequestClosed, MessageSquare, User, Newspaper, HelpCircle, LogOut, ArrowRight, Check} from 'lucide-react'
 
 export default function Home() {
@@ -529,7 +530,16 @@ export default function Home() {
           </footer>
         </main>
 
-        <aside className='w-80'>aside-2</aside>
+        <aside className='w-80 h-full'>
+          <div className='h-full flex justify-center items-center flex-col'>
+            <Image src={LogoAside} alt="Logo-T-Aside" width={100} height={50} className='rounded-full' />
+            <h2 className='text-zinc-100 font-semibold text-lg pt-2 pb-1'>Tony</h2>
+            <p className='text-xs text-zinc-400 mb-3'>tonytnportela@gmail.com</p>
+            <button className='text-regal-blue bg-zinc-800 border-regal-blue border-2 px-6 pt-1.5 pb-1.5 rounded-3xl text-xs font-semibold'>Ver Perfil</button>
+            <div className='w-full my-7 border-t border-zinc-200'></div>
+
+          </div>
+        </aside>
       </div>
     </main>
   );
