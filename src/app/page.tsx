@@ -147,7 +147,7 @@ export default function Home() {
           <nav className='grid gap-7 grid-cols-firstGridMainColumns font-bold text-zinc-300'>
 
 
-          <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+          <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>QUESTÕES RESPONDIDAS</h3>
               
               <div className='flex flex-col h-full'>
@@ -158,7 +158,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+            <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SEMANAS DO SEU PLANO DE ESTUDO</h3>
               
               <div className='flex flex-col h-full'>
@@ -169,7 +169,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+            <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SEMANAS DO SEU CURSO POR QUESTÕES</h3>
               
               <div className='flex flex-col h-full'>
@@ -180,7 +180,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+            <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>AULAS ASSISTIDAS</h3>
               
               <div className='flex flex-col h-full'>
@@ -191,7 +191,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-8 pb-9 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+            <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SIMULADOS REALIZADOS</h3>
               
               <div className='flex flex-col h-full'>
