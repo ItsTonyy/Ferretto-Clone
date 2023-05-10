@@ -141,14 +141,14 @@ export default function Home() {
           </div>          
         </aside>
 
-        <main className='flex-1 bg-zinc-800 pt-10 pb-10 pl-10 pr-24'>
+        <main className='flex-1 bg-zinc-800 pt-10 pb-10 pl-10 mr-8'>
           <h1 className='text-2xl font-bold text-zinc-200'>Olá Tony! Esse é o seu dashboard</h1>
           <div className='w-full mt-10 p-6 border-t border-zinc-200'></div>
 
           <nav className='grid gap-7 grid-cols-firstGridMainColumns font-bold text-zinc-300'>
 
 
-          <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+          <div className='w-50 pt-7 pb-6 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>QUESTÕES RESPONDIDAS</h3>
               
               <div className='flex flex-col h-full'>
@@ -159,7 +159,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+            <div className='w-50 pt-7 pb-6 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SEMANAS DO SEU PLANO DE ESTUDO</h3>
               
               <div className='flex flex-col h-full'>
@@ -170,7 +170,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+            <div className='w-50 pt-7 pb-6 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SEMANAS DO SEU CURSO POR QUESTÕES</h3>
               
               <div className='flex flex-col h-full'>
@@ -181,7 +181,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+            <div className='w-50 pt-7 pb-6 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>AULAS ASSISTIDAS</h3>
               
               <div className='flex flex-col h-full'>
@@ -192,7 +192,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='w-52 pt-6 pb-7 px-7 bg-zinc-600/50 rounded-xl flex flex-col'>
+            <div className='w-50 pt-7 pb-6 px-7 bg-zinc-600/50 rounded-2xl flex flex-col'>
               <h3 className='h-full mb-4 text-xs flex'>SIMULADOS REALIZADOS</h3>
               
               <div className='flex flex-col h-full'>
@@ -530,13 +530,60 @@ export default function Home() {
           </footer>
         </main>
 
-        <aside className='w-80 h-full'>
+        <aside className='w-96 h-full pr-8 pl-8'>
+
           <div className='h-full flex justify-center items-center flex-col'>
             <Image src={LogoAside} alt="Logo-T-Aside" width={100} height={50} className='rounded-full' />
             <h2 className='text-zinc-100 font-semibold text-lg pt-2 pb-1'>Tony</h2>
             <p className='text-xs text-zinc-400 mb-3'>tonytnportela@gmail.com</p>
             <button className='text-regal-blue bg-zinc-800 border-regal-blue border-2 px-6 pt-1.5 pb-1.5 rounded-3xl text-xs font-semibold'>Ver Perfil</button>
             <div className='w-full my-7 border-t border-zinc-200'></div>
+
+            <div className='mb-5'>
+              <div className='flex flex-row justify-between mb-1'>
+               <span className='text-sm text-zinc-300'>Questões respondidas</span>
+               <span className='text-xs text-zinc-300'>8591/17182</span>
+              </div>
+
+              <div className='h-1 rounded-full w-80 bg-slate-200'>
+                <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'></div>                  
+              </div>
+            </div>
+
+            <div className='mb-5'>
+              <div className='flex flex-row justify-between mb-1'>
+               <span className='text-sm text-zinc-300'>Questões respondidas</span>
+               <span className='text-xs text-zinc-300'>8591/17182</span>
+              </div>
+
+              <div className='h-1 rounded-full w-80 bg-slate-200'>
+                <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'></div>                  
+              </div>
+            </div>
+
+            <div className='mb-5'>
+              <div className='flex flex-row justify-between mb-1'>
+               <span className='text-sm text-zinc-300'>Questões respondidas</span>
+               <span className='text-xs text-zinc-300'>8591/17182</span>
+              </div>
+
+              <div className='h-1 rounded-full w-80 bg-slate-200'>
+                <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'></div>                  
+              </div>
+            </div>
+
+            <div className='mb-5'>
+              <div className='flex flex-row justify-between mb-1'>
+               <span className='text-sm text-zinc-300'>Questões respondidas</span>
+               <span className='text-xs text-zinc-300'>8591/17182</span>
+              </div>
+
+              <div className='h-1 rounded-full w-80 bg-slate-200'>
+                <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'></div>                  
+              </div>
+            </div>
+
+            
 
           </div>
         </aside>
