@@ -537,9 +537,9 @@ export default function Home() {
             <h2 className='text-zinc-100 font-semibold text-lg pt-2 pb-1'>Tony</h2>
             <p className='text-xs text-zinc-400 mb-3'>tonytnportela@gmail.com</p>
             <button className='text-regal-blue bg-zinc-800 border-regal-blue border-2 px-6 pt-1.5 pb-1.5 rounded-3xl text-xs font-semibold'>Ver Perfil</button>
-            <div className='w-full my-7 border-t border-zinc-200'></div>
+            <div className='w-full my-8 border-t border-zinc-400'></div>
 
-            <div className='mb-5'>
+            <div className='mb-6'>
               <div className='flex flex-row justify-between mb-1'>
                <span className='text-sm text-zinc-300'>Questões respondidas</span>
                <span className='text-xs text-zinc-300'>8591/17182</span>
@@ -550,10 +550,10 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='mb-5'>
+            <div className='mb-6'>
               <div className='flex flex-row justify-between mb-1'>
-               <span className='text-sm text-zinc-300'>Questões respondidas</span>
-               <span className='text-xs text-zinc-300'>8591/17182</span>
+               <span className='text-sm text-zinc-300'>Semanas do seu plano de estudo</span>
+               <span className='text-xs text-zinc-300'>15/30</span>
               </div>
 
               <div className='h-1 rounded-full w-80 bg-slate-200'>
@@ -561,10 +561,10 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='mb-5'>
+            <div className='mb-6'>
               <div className='flex flex-row justify-between mb-1'>
-               <span className='text-sm text-zinc-300'>Questões respondidas</span>
-               <span className='text-xs text-zinc-300'>8591/17182</span>
+               <span className='text-sm text-zinc-300'>Semanas do seu curso por questões</span>
+               <span className='text-xs text-zinc-300'>15/30</span>
               </div>
 
               <div className='h-1 rounded-full w-80 bg-slate-200'>
@@ -572,18 +572,55 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='mb-5'>
+            <div className='mb-6'>
               <div className='flex flex-row justify-between mb-1'>
-               <span className='text-sm text-zinc-300'>Questões respondidas</span>
-               <span className='text-xs text-zinc-300'>8591/17182</span>
+               <span className='text-sm text-zinc-300'>Aulas assistidas</span>
+               <span className='text-xs text-zinc-300'>2166/4332</span>
               </div>
 
               <div className='h-1 rounded-full w-80 bg-slate-200'>
                 <div className='h-1 rounded-full w-1/2 bg-blue-700 animate-fade animate-once animate-duration-1000 animate-delay-0 animate-ease-in animate-normal animate-fill-forwards'></div>                  
               </div>
+            </div>
+
+            <div className='flex flex-row justify-between mb-1 w-80'>
+               <span className='text-sm text-zinc-300'>Simulados realizados</span>
+               <span className='text-xs text-zinc-300'>10</span>
+            </div>
+
+            <div className='w-full my-8 border-t border-zinc-400'></div>
+
+            <div className='flex justify-start w-80 mb-8'>
+              <h3 className='text-sm font-bold'>NOTIFICAÇÕES</h3>
             </div>
 
             
+            <div className='flex flex-row w-80 items-center mb-5'>
+              <Image src={ferrettoImage} width={50} height={1} alt="foto-do-ferretto" className='rounded-full w-9 h-9 mr-4'/>
+
+              <div>
+                <p className='text-xs text-zinc-200/90 mb-1'>Professor Ferretto - 16/09/2022</p>
+                <p className='text-xs'>ATENÇÃO! MANUNTENÇÃO PROGRAMADA NA PLATAFORMA...</p>
+              </div>              
+            </div>
+
+            <div className='flex flex-row w-80 items-center mb-5'>
+              <Image src={ferrettoImage} width={50} height={1} alt="foto-do-ferretto" className='rounded-full w-9 h-9 mr-4'/>
+
+              <div>
+                <p className='text-xs text-zinc-200/90 mb-1'>Professor Ferretto - 16/09/2022</p>
+                <p className='text-xs'>ATUALIZAÇÃO: Problema no carregamento dos víd…</p>
+              </div>              
+            </div>
+
+            <div className='flex flex-row w-80 items-center mb-5'>
+              <Image src={ferrettoImage} width={50} height={1} alt="foto-do-ferretto" className='rounded-full w-9 h-9 mr-4'/>
+
+              <div>
+                <p className='text-xs text-zinc-200/90 mb-1'>Professor Ferretto - 16/09/2022</p>
+                <p className='text-xs'>Problemas no carregamento de vídeos - Aviso i…</p>
+              </div>              
+            </div>
 
           </div>
         </aside>
